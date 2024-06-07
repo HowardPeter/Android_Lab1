@@ -43,9 +43,6 @@ public class ActivityLab1Bai8 extends AppCompatActivity {
                 {
                     double fahrenheit = Integer.parseInt(edtF.getText().toString());
                     edtC.setText(String.valueOf(fToC(fahrenheit)));
-                }else
-                {
-                    Toast.makeText(getApplicationContext(), "Empty fahrenheit value!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -57,9 +54,6 @@ public class ActivityLab1Bai8 extends AppCompatActivity {
                 {
                     double celcius = Integer.parseInt(edtC.getText().toString());
                     edtF.setText(String.valueOf(cToF(celcius)));
-                }else
-                {
-                    Toast.makeText(getApplicationContext(), "Empty celsius value!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
