@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityLab1Bai2">
+
+    <TextView
+        android:id="@+id/tvRed"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="RED"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvOrange"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FFA500"
+        android:gravity="center"
+        android:text="ORANGE"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvYellow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:text="YELLOW"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvGreen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/tvBlue"
+        android:layout_marginRight="10dp"
+        android:background="#00FF00"
+        android:gravity="center"
+        android:text="GREEN"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvBlue"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:background="#0000FF"
+        android:gravity="center"
+        android:text="BLUE"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvIndigo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/tvBlue"
+        android:layout_marginLeft="10dp"
+        android:background="#4B0082"
+        android:gravity="center"
+        android:text="INDIGO"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvViolet"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:background="#EE82EE"
+        android:gravity="center"
+        android:text="VIOLET"
+        android:textColor="@android:color/black" />
+</RelativeLayout>

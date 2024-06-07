@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyDemo1</string>
+    <string name="result">Result:</string>
+    <string name="binary">Binary</string>
+    <string name="hexa">Hexa</string>
+    <string name="Decimal">Decimal:</string>
+    <string name="Result">Result:</string>
+    <string name="Clear">Clear</string>
+    <string name="convert_to_fahrenheit">Convert to Fahrenheit</string>
+    <string name="convert_to_celcius">Convert to Celcius</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit:</string>
+</resources>
